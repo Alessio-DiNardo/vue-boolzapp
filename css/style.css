@@ -5,9 +5,7 @@
 }
 
 
-main{
-
-}
+main{}
 
 div.my_background-green{
     background-color: #009688;
@@ -21,7 +19,7 @@ div.my_background-grey{
 
 
 div.container{
-    width: 1100px;
+    max-width: 1480px;
     height: 1000px;
     margin: 0 auto;
     border: 2px black solid;
@@ -29,14 +27,48 @@ div.container{
 }
 
 div.my_utent-elenc{
-    width: 30%;
-    background-color: blue;
+    width: 40%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.my_profile{
+    width: 100%;
+    padding: 0.25rem;
+}
+
+div.my_notification{
+    background-color: blue;
+    width: 100%;
+    height: 20px;
+}
+
+div.my_address{
+    background-color: green;
+    width: 100%;
+    height: 20px;
 }
 
 div.my_utent-chat{
-    width: 70%;
+    width: 60%;
     background-color: red;
     height: 100%;
 }
 
+nav.my_profile-img{
+    max-width: 90px;
+    max-height: 90px;
+    display: flex;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 0.15rem 0;
+}
+
+p.my_name{
+    padding-top: 1.2rem;
+    font-size: 1.1rem;
+}
