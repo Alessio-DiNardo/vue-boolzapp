@@ -15,6 +15,7 @@ div.my_background-green{
 div.my_background-grey{
     background-color: #DCDBD1;
     height: 3000px;
+    padding-top: 5rem;
 }
 
 
@@ -276,4 +277,30 @@ div.my_chat-bar p{
     border-radius: 0.5rem;
     color: grey;
     padding: 0.5rem;
+}
+
+div.card{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 0.7rem;
+    
+}
+
+div.card img{
+    width: 70px;
+    height: 70px;
+}
+
+div.my_info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+}
+
+p.my_hour{
+    text-align: end;
+    padding-left: 16rem;
+    padding-top: 1rem;
 }
