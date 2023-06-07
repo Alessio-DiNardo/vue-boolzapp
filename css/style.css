@@ -58,7 +58,7 @@ div.my_nav-bar{
 
 div.my_utent-chat{
     width: 60%;
-    background-color: red;
+    background-image: url(/img/mine.jpg);
     height: 100%;
 }
 
@@ -73,6 +73,7 @@ ul.my_icons{
     flex-direction: row;
     list-style-type: none;
     align-items: center;
+    padding-right: 0.5rem;
 }
 
 li i{
@@ -150,4 +151,37 @@ p.text{
     border: 1px #F6F6F6 solid;
     padding-left: 0.4rem;
 
+}
+
+div.my_headbar-chat{
+    width: 100%;
+    background-color: #EAEAEA;
+    height: 66px;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.user{
+    display: flex;
+    align-items: center;
+}
+
+nav.user img{
+    width: 50px;
+}
+
+div.user-name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+span.last-access{
+    color: grey;
+    font-size: 0.9rem;
+}
+
+div.chat-green{
+    
 }
