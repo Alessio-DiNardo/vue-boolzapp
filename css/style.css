@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+main{
+
+}
+
+div.my_background-green{
+    background-color: #009688;
+    height: 200px;
+}
+
+div.my_background-grey{
+    background-color: #DCDBD1;
+    height: 3000px;
+}
+
+
+div.container{
+    background-color: red;
+    width: 2000px;
+    height: 400px;
+}
