@@ -182,6 +182,58 @@ span.last-access{
     font-size: 0.9rem;
 }
 
-div.chat-green{
-    
+div.invisible-container{
+    max-width: 650px;
+    height: 1000px;
+    margin: 0 auto;
 }
+
+div.pills-green{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+
+div.pills-white{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: start;
+}
+
+div.chat-green{
+    width: 280px;
+    height: 60px;
+    background-color: #D5F9BA;
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+}
+
+div.chat-white{
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+div.chat-second-green{
+    width: 280px;
+    height: 60px;
+    background-color: #D5F9BA;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+p.my_chat-text{
+    padding: 0.75rem;
+}
+
+p.hour{
+    font-size: 0.6rem;
+    color: grey;
+    text-align: end;
+    padding-right: 0.5rem;
+}
+
