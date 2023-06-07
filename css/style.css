@@ -62,6 +62,11 @@ div.my_utent-chat{
     height: 100%;
 }
 
+div.my_chat{
+    height: 880px;
+    overflow-y: auto;
+}
+
 nav.my_profile-img{
     max-width: 90px;
     max-height: 90px;
@@ -184,7 +189,6 @@ span.last-access{
 
 div.invisible-container{
     max-width: 650px;
-    height: 1000px;
     margin: 0 auto;
 }
 
@@ -237,3 +241,39 @@ p.hour{
     padding-right: 0.5rem;
 }
 
+div.my_footer-chat{
+    height: 50px;
+    width: 100%;
+    background-color: #f3eeea;
+}
+
+div.my_footer-chat{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.my_simbol{
+    color: grey;
+    width: 50px;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+
+div.my_simbol i{
+    font-size: 1.7rem;
+    
+}
+
+div.my_chat-bar{
+    padding: 0.5rem;
+}
+
+div.my_chat-bar p{
+    background-color: white;
+    width: 720px;
+    height: 35px;
+    border-radius: 0.5rem;
+    color: grey;
+    padding: 0.5rem;
+}
