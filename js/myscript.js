@@ -164,7 +164,9 @@ createApp({
                         }
                     ],
                 }
-            ]
+            ],
+
+            contactIndex: 0,
             
         }
     }

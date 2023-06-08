@@ -206,7 +206,7 @@ div.chat-green{
     height: 60px;
     background-color: #D5F9BA;
     border-radius: 0.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 div.chat-white{
@@ -215,14 +215,6 @@ div.chat-white{
     background-color: white;
     border-radius: 0.5rem;
     margin-top: 2rem;
-}
-
-div.chat-second-green{
-    width: 280px;
-    height: 60px;
-    background-color: #D5F9BA;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
 }
 
 p.my_chat-text{
@@ -283,8 +275,12 @@ div.card{
     width: 100%;
     padding: 0.7rem;
     height: 90px;
-    
 }
+
+.display-none{
+    display: none;
+}
+
 
 div.card img{
     width: 70px;
@@ -306,4 +302,8 @@ p.my_hour{
 
 div.my_address{
     overflow-y: auto;
+}
+
+.background-color-grey{
+    background-color: grey;
 }
