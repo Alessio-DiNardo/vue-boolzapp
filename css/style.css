@@ -5,26 +5,15 @@
 }
 
 
-main{}
-
-div.my_background-green{
-    background-color: #009688;
-    height: 200px;
-}
-
-div.my_background-grey{
-    background-color: #DCDBD1;
-    height: 3000px;
-    padding-top: 5rem;
-}
+main{background-image:linear-gradient(to bottom, #009688 0px, #009688 15vh, #dddbd1 15vh, #d2dbdc 100% );
+    height: 100vh;}
 
 
 div.container{
     max-width: 1480px;
-    height: 1000px;
     margin: 0 auto;
-    border: 2px black solid;
     display: flex;
+    padding-top: 1rem;
 }
 
 div.my_utent-elenc{
@@ -32,6 +21,7 @@ div.my_utent-elenc{
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 div.my_profile{
@@ -59,7 +49,7 @@ div.my_nav-bar{
 
 div.my_utent-chat{
     width: 60%;
-    background-image: url(/img/mine.jpg);
+    background-image: url(../img/mine.jpg);
     height: 100%;
 }
 
@@ -134,7 +124,12 @@ div.search-icon{
     display: flex;
 }
 
-span.search i{
+div.my_nav-bar{
+    display: flex;
+    padding: .5rem .5rem;
+}
+
+div.my_nav-bar i{
     background-color: white;
     color: #B5B8BA;
     width: 70px;
@@ -143,10 +138,9 @@ span.search i{
     align-items: center;
     justify-content: center;
     border: 1px #F6F6F6 solid;
-
 }
 
-p.text{
+input.text{
     background-color: white;
     color: grey;
     width: 504px;
@@ -235,6 +229,10 @@ p.my_chat-text{
     padding: 0.75rem;
 }
 
+div.my_chat{
+    overflow-y: auto;
+}
+
 p.hour{
     font-size: 0.6rem;
     color: grey;
@@ -270,7 +268,7 @@ div.my_chat-bar{
     padding: 0.5rem;
 }
 
-div.my_chat-bar p{
+div.my_chat-bar input{
     background-color: white;
     width: 720px;
     height: 35px;
@@ -304,4 +302,8 @@ p.my_hour{
     text-align: end;
     padding-left: 16rem;
     padding-top: 1rem;
+}
+
+div.my_address{
+    overflow-y: auto;
 }
