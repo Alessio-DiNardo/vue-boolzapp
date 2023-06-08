@@ -43,7 +43,7 @@
                             <input class="text" type="Cerca o inizia una nuova chat" placeholder="Cerca o inizia una nuova chat">
                         </div>
                         <div class="my_address">
-                            <div class="card" :class= v-for="(contact, index) in contacts" :class="index === contactIndex ? 'background-color-grey' : ''" @click="contactIndex = index">
+                            <div class="card"  v-for="(contact, index) in contacts" :class="index === contactIndex ? 'background-color-grey' : ''" @click="contactIndex = index">
                                 <img :src="contact[index].avatar" alt="avatar">
                                 <div class="my_info">
                                     <span class="user-name">{{contact[index].name}}</span>

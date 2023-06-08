@@ -277,7 +277,7 @@ div.card{
     height: 90px;
 }
 
-div.card..background-color-grey{
+div.card.background-color-grey{
     display: flex;
     background-color: white;
     width: 100%;
