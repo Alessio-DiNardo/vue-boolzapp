@@ -215,6 +215,7 @@ div.chat-white{
     background-color: white;
     border-radius: 0.5rem;
     margin-top: 2rem;
+    margin-right: 20rem;
 }
 
 p.my_chat-text{
@@ -283,11 +284,7 @@ div.card.background-color-grey{
     width: 100%;
     padding: 0.7rem;
     height: 90px;
-    background-color: grey;
-}
-
-.display-none{
-    display: none;
+    background-color: rgb(202, 201, 201);
 }
 
 
@@ -311,8 +308,4 @@ p.my_hour{
 
 div.my_address{
     overflow-y: auto;
-}
-
-.background-color-grey{
-    background-color: grey;
 }

@@ -1,4 +1,5 @@
 const { createApp } = Vue;
+
 createApp({
     data(){
         return {
@@ -105,7 +106,7 @@ createApp({
                 },
                 {
                     name: 'Claudia',
-                    avatar: './img/avatar_5.jpg',
+                    avatar: './img/avatar_6.jpg',
                     visible: true,
                     messages: [
                         {
@@ -163,16 +164,26 @@ createApp({
                             status: 'received'
                         }
                     ],
-                    contactIndex: 0,
+                    
                 }
             ],
-            methods: {
-                selectContact(index){
-                    this.contactIndex = index;
-                }
+
+            contactIndex: 0,
+            newChat: '',
             }
             
-            
-        }
-    }
+        },
+
+        methods: {
+            selectContact(index){
+                this.contactIndex = index;
+            }
+        },
+            enterChat(){
+                newChat = {
+                    message: this.newChat,
+                    status: 'sent'
+                }
+            }
+        
 }).mount('#app');
