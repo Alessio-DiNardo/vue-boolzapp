@@ -183,7 +183,10 @@ createApp({
                 newChat = {
                     message: this.newChat,
                     status: 'sent'
-                }
+                };
+                this.contacts[this.contactIndex].messages.push(enterChat);
+                this.newChat;
             }
+            
         }
 }).mount('#app');
