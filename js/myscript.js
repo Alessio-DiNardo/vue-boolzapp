@@ -163,10 +163,15 @@ createApp({
                             status: 'received'
                         }
                     ],
+                    contactIndex: 0,
                 }
             ],
-
-            contactIndex: 0,
+            methods: {
+                selectContact(index){
+                    this.contactIndex = index;
+                }
+            }
+            
             
         }
     }
