@@ -184,7 +184,7 @@ createApp({
                     message: this.newChat,
                     status: 'sent'
                 };
-                this.contacts[this.contactIndex].messages.push(enterChat);
+                this.contacts[this.contactIndex].messages.push(newChat.message);
                 this.newChat;
             }
             
