@@ -177,13 +177,13 @@ createApp({
         methods: {
             selectContact(index){
                 this.contactIndex = index;
-            }
-        },
+            },
+        
             enterChat(){
                 newChat = {
                     message: this.newChat,
                     status: 'sent'
                 }
             }
-        
+        }
 }).mount('#app');
